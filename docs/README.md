@@ -7,6 +7,7 @@ This folder documents how Happy works internally, with a focus on protocol, back
 - realtime-sync-and-rpc.md: High-level overview of realtime socket management and RPC control flow.
 - api.md: HTTP endpoints and authentication flows.
 - encryption.md: Encryption boundaries and on-wire encoding.
+- auth-key-exchange.md: Secret generation, the pairing key-exchange flow, and how the bearer token is minted/passed (with diagrams).
 - backend-architecture.md: Internal backend structure, data flow, and key subsystems.
 - deployment.md: How to deploy the backend and required infrastructure.
 - cli-architecture.md: CLI and daemon architecture and how they interact with the server.
